@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.4"
+  },
+  "name": "dsa",
+  "description": "Datascructures &amp; algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S0mbr3/dsa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S0mbr3/dsa/issues"
+  },
+  "homepage": "https://github.com/S0mbr3/dsa#readme"
+}
