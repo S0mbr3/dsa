@@ -1,23 +1,20 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let found = false;
-function binary_search(arr, needle, index) {
-    // error("This is an error");
-    //   log("MAIS VA TE FAIRE")
-    //console.debug("nique ta mere")
-    //log(needle, arr[index])
-    //console.log(`${needle}, ${arr[index]}`)
-    console.debug(`needle: ${needle}, Index: ${index} Value: ${arr[index]}`);
-    if (needle < arr[0] || needle > arr[arr.length]) {
-        found = false;
+function binary_search(arr, number_tosearch) {
+    function search(min, max) {
+        if (min > max)
+            return false;
+        let index = min + Math.floor((max - min) / 2);
+        if (number_tosearch < arr[min] || number_tosearch > arr[max])
+            return false;
+        else if (number_tosearch === arr[index])
+            return true;
+        else if (number_tosearch > arr[index])
+            return search(index + 1, max);
+        else if (number_tosearch < arr[index])
+            return search(min, index - 1);
+        return false;
     }
-    else if (arr[index] == needle) {
-        found = true;
-    }
-    else if (needle > arr[index])
-        binary_search(arr, needle, Math.floor((arr.length - index + 1) / 2));
-    else if (needle < arr[index])
-        binary_search(arr, needle, Math.floor((index - 1) / 2));
-    return found;
+    return search(0, arr.length - 1);
 }
 exports.default = binary_search;
