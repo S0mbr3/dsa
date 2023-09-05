@@ -1,0 +1,337 @@
+[00:12:56.595] Global cache location '/home/oxhart/.cache/typescript/5.1', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[00:12:56.597] Processing cache location '/home/oxhart/.cache/typescript/5.1'
+[00:12:56.597] Trying to find '/home/oxhart/.cache/typescript/5.1/package.json'...
+[00:12:56.604] Loaded content of '/home/oxhart/.cache/typescript/5.1/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.657"},"devDependencies":{"@types/node":"^20.5.2","@types/react":"^18.2.18"}}
+[00:12:56.604] Loaded content of '/home/oxhart/.cache/typescript/5.1/package-lock.json'
+[00:12:56.604] Finished processing cache location '/home/oxhart/.cache/typescript/5.1'
+[00:12:56.605] Process id: 3231985
+[00:12:56.605] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[00:12:56.605] validateDefaultNpmLocation: false
+[00:12:56.605] Npm config file: /home/oxhart/.cache/typescript/5.1/package.json
+[00:12:56.605] Updating types-registry npm package...
+[00:12:56.605] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[00:12:57.324]     Succeeded. stdout:
+    
+    changed 1 package, and audited 7 packages in 466ms
+
+found 0 vulnerabilities
+
+[00:12:57.324] Updated types-registry npm package
+[00:12:57.376] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/two_crystal_balls.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[00:12:57.400] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[00:12:57.400] Explicitly included types: []
+[00:12:57.401] Inferred typings from unresolved imports: []
+[00:12:57.401] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[00:12:57.401] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[00:12:57.401] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject1*","files":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[00:12:57.402] Response has been sent.
+[00:12:57.402] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[00:12:57.402] Response has been sent.
+[00:12:57.402] No new typings were requested as a result of typings discovery
+[00:13:57.815] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/two_crystal_balls.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@code/TwoCrystalBalls"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[00:13:57.815] Explicitly included types: []
+[00:13:57.816] Inferred typings from unresolved imports: ["@code/TwoCrystalBalls"]
+[00:13:57.816] Result: {"cachedTypingPaths":[],"newTypingNames":["@code/TwoCrystalBalls"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[00:13:57.816] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@code/TwoCrystalBalls"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[00:13:57.816] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject1*"}
+[00:13:57.816] Response has been sent.
+[00:13:57.816] Installing typings ["@code/TwoCrystalBalls"]
+[00:13:57.817] '@code/TwoCrystalBalls':: Entry for package 'code__TwoCrystalBalls' does not exist in local types registry - skipping...
+[00:13:57.817] All typings are known to be missing or invalid - no need to install more typings
+[00:13:57.817] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@code/TwoCrystalBalls"],"kind":"action::set"}
+[00:13:57.817] Response has been sent.
+[00:14:18.610] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/binary_search.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@compiled/search"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[00:14:18.610] Explicitly included types: []
+[00:14:18.611] Inferred typings from unresolved imports: ["@compiled/search"]
+[00:14:18.611] Result: {"cachedTypingPaths":[],"newTypingNames":["@compiled/search"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[00:14:18.611] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@compiled/search"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[00:14:18.611] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject2*","files":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[00:14:18.611] Response has been sent.
+[00:14:18.611] Installing typings ["@compiled/search"]
+[00:14:18.611] '@compiled/search':: Entry for package 'compiled__search' does not exist in local types registry - skipping...
+[00:14:18.611] All typings are known to be missing or invalid - no need to install more typings
+[00:14:18.611] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@compiled/search"],"kind":"action::set"}
+[00:14:18.611] Response has been sent.
+[00:14:33.503] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/two_crystal_balls.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@code/TwoCrystalBalls","@compiled/search"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[00:14:33.504] Explicitly included types: []
+[00:14:33.504] Inferred typings from unresolved imports: ["@code/TwoCrystalBalls","@compiled/search"]
+[00:14:33.504] Result: {"cachedTypingPaths":[],"newTypingNames":["@code/TwoCrystalBalls","@compiled/search"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[00:14:33.504] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@code/TwoCrystalBalls","@compiled/search"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[00:14:33.504] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject1*"}
+[00:14:33.504] Response has been sent.
+[00:14:33.504] Installing typings ["@code/TwoCrystalBalls","@compiled/search"]
+[00:14:33.504] '@code/TwoCrystalBalls':: Entry for package 'code__TwoCrystalBalls' does not exist in local types registry - skipping...
+[00:14:33.504] '@compiled/search':: Entry for package 'compiled__search' does not exist in local types registry - skipping...
+[00:14:33.504] All typings are known to be missing or invalid - no need to install more typings
+[00:14:33.505] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@code/TwoCrystalBalls","@compiled/search"],"kind":"action::set"}
+[00:14:33.505] Response has been sent.
+[00:15:25.349] Got install request {"projectName":"/dev/null/inferredProject3*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa/search","kind":"discover"}
+[00:15:25.349] Explicitly included types: []
+[00:15:25.349] Inferred typings from unresolved imports: []
+[00:15:25.349] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/search/bower_components","/home/oxhart/dev/dsa/search/node_modules"]}
+[00:15:25.349] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/search/bower_components","/home/oxhart/dev/dsa/search/node_modules"]}
+[00:15:25.349] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject3*","files":["/home/oxhart/dev/dsa/search/bower_components","/home/oxhart/dev/dsa/search/node_modules"]}
+[00:15:25.349] Response has been sent.
+[00:15:25.349] Sending response:
+    {"projectName":"/dev/null/inferredProject3*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[00:15:25.349] Response has been sent.
+[00:15:25.349] No new typings were requested as a result of typings discovery
+[01:28:56.000] Closing file watchers for project '/dev/null/inferredProject3*'
+[01:28:56.000] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject3*","files":[]}
+[01:28:56.000] Response has been sent.
+[01:28:56.000] Closing file watchers for project '/dev/null/inferredProject3*' - done.
+[01:28:56.097] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:28:56.097] Explicitly included types: []
+[01:28:56.098] Inferred typings from unresolved imports: []
+[01:28:56.098] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:28:56.098] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:28:56.098] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*","files":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:28:56.098] Response has been sent.
+[01:28:56.098] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[01:28:56.098] Response has been sent.
+[01:28:56.098] No new typings were requested as a result of typings discovery
+[01:28:58.178] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@code/BubbleSort"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:28:58.178] Explicitly included types: []
+[01:28:58.179] Inferred typings from unresolved imports: ["@code/BubbleSort"]
+[01:28:58.179] Result: {"cachedTypingPaths":[],"newTypingNames":["@code/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:28:58.179] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@code/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:28:58.179] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:28:58.179] Response has been sent.
+[01:28:58.179] Installing typings ["@code/BubbleSort"]
+[01:28:58.179] '@code/BubbleSort':: Entry for package 'code__BubbleSort' does not exist in local types registry - skipping...
+[01:28:58.179] All typings are known to be missing or invalid - no need to install more typings
+[01:28:58.179] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@code/BubbleSort"],"kind":"action::set"}
+[01:28:58.179] Response has been sent.
+[01:29:05.344] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/BubbleSort"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:05.344] Explicitly included types: []
+[01:29:05.344] Inferred typings from unresolved imports: ["@/BubbleSort"]
+[01:29:05.344] Result: {"cachedTypingPaths":[],"newTypingNames":["@/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:05.344] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:05.344] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:05.344] Response has been sent.
+[01:29:05.344] Installing typings ["@/BubbleSort"]
+[01:29:05.345] '@/BubbleSort':: Package name '@/BubbleSort' contains non URI safe characters
+[01:29:05.345] All typings are known to be missing or invalid - no need to install more typings
+[01:29:05.345] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/BubbleSort"],"kind":"action::set"}
+[01:29:05.345] Response has been sent.
+[01:29:05.957] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@com/BubbleSort"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:05.957] Explicitly included types: []
+[01:29:05.957] Inferred typings from unresolved imports: ["@com/BubbleSort"]
+[01:29:05.957] Result: {"cachedTypingPaths":[],"newTypingNames":["@com/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:05.957] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@com/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:05.958] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:05.958] Response has been sent.
+[01:29:05.958] Installing typings ["@com/BubbleSort"]
+[01:29:05.958] '@com/BubbleSort':: Entry for package 'com__BubbleSort' does not exist in local types registry - skipping...
+[01:29:05.958] All typings are known to be missing or invalid - no need to install more typings
+[01:29:05.958] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@com/BubbleSort"],"kind":"action::set"}
+[01:29:05.958] Response has been sent.
+[01:29:06.348] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@comp/BubbleSort"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:06.349] Explicitly included types: []
+[01:29:06.349] Inferred typings from unresolved imports: ["@comp/BubbleSort"]
+[01:29:06.349] Result: {"cachedTypingPaths":[],"newTypingNames":["@comp/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:06.349] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@comp/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:06.349] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:06.349] Response has been sent.
+[01:29:06.349] Installing typings ["@comp/BubbleSort"]
+[01:29:06.349] '@comp/BubbleSort':: Entry for package 'comp__BubbleSort' does not exist in local types registry - skipping...
+[01:29:06.349] All typings are known to be missing or invalid - no need to install more typings
+[01:29:06.349] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@comp/BubbleSort"],"kind":"action::set"}
+[01:29:06.350] Response has been sent.
+[01:29:06.607] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@compi/BubbleSort"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:06.608] Explicitly included types: []
+[01:29:06.608] Inferred typings from unresolved imports: ["@compi/BubbleSort"]
+[01:29:06.608] Result: {"cachedTypingPaths":[],"newTypingNames":["@compi/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:06.608] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@compi/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:06.608] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:06.608] Response has been sent.
+[01:29:06.608] Installing typings ["@compi/BubbleSort"]
+[01:29:06.608] '@compi/BubbleSort':: Entry for package 'compi__BubbleSort' does not exist in local types registry - skipping...
+[01:29:06.608] All typings are known to be missing or invalid - no need to install more typings
+[01:29:06.608] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@compi/BubbleSort"],"kind":"action::set"}
+[01:29:06.608] Response has been sent.
+[01:29:06.881] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@compil/BubbleSort"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:06.881] Explicitly included types: []
+[01:29:06.881] Inferred typings from unresolved imports: ["@compil/BubbleSort"]
+[01:29:06.881] Result: {"cachedTypingPaths":[],"newTypingNames":["@compil/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:06.881] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@compil/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:06.881] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:06.881] Response has been sent.
+[01:29:06.881] Installing typings ["@compil/BubbleSort"]
+[01:29:06.881] '@compil/BubbleSort':: Entry for package 'compil__BubbleSort' does not exist in local types registry - skipping...
+[01:29:06.881] All typings are known to be missing or invalid - no need to install more typings
+[01:29:06.881] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@compil/BubbleSort"],"kind":"action::set"}
+[01:29:06.881] Response has been sent.
+[01:29:06.915] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@compile/BubbleSort"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:06.915] Explicitly included types: []
+[01:29:06.915] Inferred typings from unresolved imports: ["@compile/BubbleSort"]
+[01:29:06.915] Result: {"cachedTypingPaths":[],"newTypingNames":["@compile/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:06.915] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@compile/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:06.915] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:06.915] Response has been sent.
+[01:29:06.915] Installing typings ["@compile/BubbleSort"]
+[01:29:06.915] '@compile/BubbleSort':: Entry for package 'compile__BubbleSort' does not exist in local types registry - skipping...
+[01:29:06.915] All typings are known to be missing or invalid - no need to install more typings
+[01:29:06.915] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@compile/BubbleSort"],"kind":"action::set"}
+[01:29:06.915] Response has been sent.
+[01:29:07.426] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@compiled/BubbleSort"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:07.426] Explicitly included types: []
+[01:29:07.426] Inferred typings from unresolved imports: ["@compiled/BubbleSort"]
+[01:29:07.426] Result: {"cachedTypingPaths":[],"newTypingNames":["@compiled/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:07.427] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@compiled/BubbleSort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:07.427] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:07.427] Response has been sent.
+[01:29:07.427] Installing typings ["@compiled/BubbleSort"]
+[01:29:07.427] '@compiled/BubbleSort':: Entry for package 'compiled__BubbleSort' does not exist in local types registry - skipping...
+[01:29:07.427] All typings are known to be missing or invalid - no need to install more typings
+[01:29:07.427] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@compiled/BubbleSort"],"kind":"action::set"}
+[01:29:07.427] Response has been sent.
+[01:29:08.400] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@compiled/"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:08.400] Explicitly included types: []
+[01:29:08.400] Inferred typings from unresolved imports: ["@compiled/"]
+[01:29:08.400] Result: {"cachedTypingPaths":[],"newTypingNames":["@compiled/"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:08.400] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@compiled/"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:08.401] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:08.401] Response has been sent.
+[01:29:08.401] Installing typings ["@compiled/"]
+[01:29:08.401] '@compiled/':: Package name '@compiled/' contains non URI safe characters
+[01:29:08.401] All typings are known to be missing or invalid - no need to install more typings
+[01:29:08.401] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@compiled/"],"kind":"action::set"}
+[01:29:08.401] Response has been sent.
+[01:29:13.712] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@compiled/s"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:13.713] Explicitly included types: []
+[01:29:13.713] Inferred typings from unresolved imports: ["@compiled/s"]
+[01:29:13.713] Result: {"cachedTypingPaths":[],"newTypingNames":["@compiled/s"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:13.713] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@compiled/s"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:13.713] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:13.713] Response has been sent.
+[01:29:13.713] Installing typings ["@compiled/s"]
+[01:29:13.713] '@compiled/s':: Entry for package 'compiled__s' does not exist in local types registry - skipping...
+[01:29:13.713] All typings are known to be missing or invalid - no need to install more typings
+[01:29:13.713] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@compiled/s"],"kind":"action::set"}
+[01:29:13.713] Response has been sent.
+[01:29:14.170] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@compiled/sor"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:14.170] Explicitly included types: []
+[01:29:14.170] Inferred typings from unresolved imports: ["@compiled/sor"]
+[01:29:14.170] Result: {"cachedTypingPaths":[],"newTypingNames":["@compiled/sor"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:14.170] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@compiled/sor"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:14.170] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:14.170] Response has been sent.
+[01:29:14.170] Installing typings ["@compiled/sor"]
+[01:29:14.170] '@compiled/sor':: Entry for package 'compiled__sor' does not exist in local types registry - skipping...
+[01:29:14.170] All typings are known to be missing or invalid - no need to install more typings
+[01:29:14.170] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@compiled/sor"],"kind":"action::set"}
+[01:29:14.170] Response has been sent.
+[01:29:15.725] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/search/test/bubble_sort.test.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@compiled/sort"],"projectRootPath":"/home/oxhart/dev/dsa/search/test","kind":"discover"}
+[01:29:15.726] Explicitly included types: []
+[01:29:15.726] Inferred typings from unresolved imports: ["@compiled/sort"]
+[01:29:15.726] Result: {"cachedTypingPaths":[],"newTypingNames":["@compiled/sort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:15.726] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@compiled/sort"],"filesToWatch":["/home/oxhart/dev/dsa/search/test/bower_components","/home/oxhart/dev/dsa/search/test/node_modules"]}
+[01:29:15.726] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject4*"}
+[01:29:15.726] Response has been sent.
+[01:29:15.726] Installing typings ["@compiled/sort"]
+[01:29:15.726] '@compiled/sort':: Entry for package 'compiled__sort' does not exist in local types registry - skipping...
+[01:29:15.726] All typings are known to be missing or invalid - no need to install more typings
+[01:29:15.726] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@compiled/sort"],"kind":"action::set"}
+[01:29:15.726] Response has been sent.
+[01:29:56.031] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa/sort","kind":"discover"}
+[01:29:56.031] Explicitly included types: []
+[01:29:56.031] Inferred typings from unresolved imports: []
+[01:29:56.031] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/sort/bower_components","/home/oxhart/dev/dsa/sort/node_modules"]}
+[01:29:56.031] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/sort/bower_components","/home/oxhart/dev/dsa/sort/node_modules"]}
+[01:29:56.031] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject5*","files":["/home/oxhart/dev/dsa/sort/bower_components","/home/oxhart/dev/dsa/sort/node_modules"]}
+[01:29:56.031] Response has been sent.
+[01:29:56.031] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[01:29:56.031] Response has been sent.
+[01:29:56.031] No new typings were requested as a result of typings discovery
+[02:48:02.403] Closing file watchers for project '/dev/null/inferredProject5*'
+[02:48:02.403] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject5*","files":[]}
+[02:48:02.403] Response has been sent.
+[02:48:02.403] Closing file watchers for project '/dev/null/inferredProject5*' - done.
+[02:48:05.942] Got install request {"projectName":"/dev/null/inferredProject6*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa/linkedList","kind":"discover"}
+[02:48:05.942] Explicitly included types: []
+[02:48:05.942] Inferred typings from unresolved imports: []
+[02:48:05.942] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/linkedList/bower_components","/home/oxhart/dev/dsa/linkedList/node_modules"]}
+[02:48:05.942] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/linkedList/bower_components","/home/oxhart/dev/dsa/linkedList/node_modules"]}
+[02:48:05.942] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject6*","files":["/home/oxhart/dev/dsa/linkedList/bower_components","/home/oxhart/dev/dsa/linkedList/node_modules"]}
+[02:48:05.942] Response has been sent.
+[02:48:05.942] Sending response:
+    {"projectName":"/dev/null/inferredProject6*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[02:48:05.942] Response has been sent.
+[02:48:05.942] No new typings were requested as a result of typings discovery
+[03:03:24.122] Got install request {"projectName":"/dev/null/inferredProject6*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa/linkedList","kind":"discover"}
+[03:03:24.122] Explicitly included types: []
+[03:03:24.123] Inferred typings from unresolved imports: []
+[03:03:24.123] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/linkedList/bower_components","/home/oxhart/dev/dsa/linkedList/node_modules"]}
+[03:03:24.123] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/linkedList/bower_components","/home/oxhart/dev/dsa/linkedList/node_modules"]}
+[03:03:24.123] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject6*"}
+[03:03:24.123] Response has been sent.
+[03:03:24.123] Sending response:
+    {"projectName":"/dev/null/inferredProject6*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[03:03:24.123] Response has been sent.
+[03:03:24.123] No new typings were requested as a result of typings discovery
+[03:03:24.147] Got install request {"projectName":"/dev/null/inferredProject7*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa/search","kind":"discover"}
+[03:03:24.147] Explicitly included types: []
+[03:03:24.147] Inferred typings from unresolved imports: []
+[03:03:24.147] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/search/bower_components","/home/oxhart/dev/dsa/search/node_modules"]}
+[03:03:24.147] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/search/bower_components","/home/oxhart/dev/dsa/search/node_modules"]}
+[03:03:24.147] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject7*","files":["/home/oxhart/dev/dsa/search/bower_components","/home/oxhart/dev/dsa/search/node_modules"]}
+[03:03:24.147] Response has been sent.
+[03:03:24.147] Sending response:
+    {"projectName":"/dev/null/inferredProject7*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[03:03:24.147] Response has been sent.
+[03:03:24.147] No new typings were requested as a result of typings discovery
+[03:03:24.166] Got install request {"projectName":"/dev/null/inferredProject8*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa/sort","kind":"discover"}
+[03:03:24.166] Explicitly included types: []
+[03:03:24.166] Inferred typings from unresolved imports: []
+[03:03:24.166] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/sort/bower_components","/home/oxhart/dev/dsa/sort/node_modules"]}
+[03:03:24.166] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/sort/bower_components","/home/oxhart/dev/dsa/sort/node_modules"]}
+[03:03:24.166] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject8*","files":["/home/oxhart/dev/dsa/sort/bower_components","/home/oxhart/dev/dsa/sort/node_modules"]}
+[03:03:24.166] Response has been sent.
+[03:03:24.166] Sending response:
+    {"projectName":"/dev/null/inferredProject8*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[03:03:24.166] Response has been sent.
+[03:03:24.166] No new typings were requested as a result of typings discovery

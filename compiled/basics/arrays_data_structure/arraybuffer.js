@@ -1,7 +1,7 @@
 "use strict";
 /*
   * Arrays are fixed size contiguous memory chunks you then cannot grow it
-* there is no inertAt, push or pop you can write those though
+  * there is no inertAt, push or pop you can write those though. Inserting, deleting is just done by overwriting the the memory chunk.
 *
 * In this example we are seing how are stored in the memory the data
 * with 8 bits valules and 16 bits values in the same contiguous memory space of 6 bytes

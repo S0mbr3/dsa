@@ -4,7 +4,7 @@ function binary_search(arr, number_tosearch) {
     function search(min, max) {
         if (min > max)
             return false;
-        let index = min + Math.floor((max - min) / 2);
+        const index = min + Math.floor((max - min) / 2);
         if (number_tosearch < arr[min] || number_tosearch > arr[max])
             return false;
         else if (number_tosearch === arr[index])

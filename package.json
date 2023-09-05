@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/S0mbr3/dsa/issues"
   },
-  "homepage": "https://github.com/S0mbr3/dsa#readme"
+  "homepage": "https://github.com/S0mbr3/dsa#readme",
+  "dependencies": {
+    "babel": "^6.23.0"
+  }
 }
