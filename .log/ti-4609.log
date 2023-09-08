@@ -1,0 +1,54 @@
+[15:42:26.361] Global cache location '/home/oxhart/.cache/typescript/5.2', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[15:42:26.363] Processing cache location '/home/oxhart/.cache/typescript/5.2'
+[15:42:26.363] Trying to find '/home/oxhart/.cache/typescript/5.2/package.json'...
+[15:42:26.370] Loaded content of '/home/oxhart/.cache/typescript/5.2/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.659"},"devDependencies":{"@types/babel__preset-env":"^7.9.2"}}
+[15:42:26.370] Loaded content of '/home/oxhart/.cache/typescript/5.2/package-lock.json'
+[15:42:26.370] Finished processing cache location '/home/oxhart/.cache/typescript/5.2'
+[15:42:26.370] Process id: 4619
+[15:42:26.371] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[15:42:26.371] validateDefaultNpmLocation: false
+[15:42:26.371] Npm config file: /home/oxhart/.cache/typescript/5.2/package.json
+[15:42:26.371] Updating types-registry npm package...
+[15:42:26.371] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[15:42:27.016]     Succeeded. stdout:
+    
+    up to date, audited 3 packages in 416ms
+
+found 0 vulnerabilities
+
+[15:42:27.016] Updated types-registry npm package
+[15:42:27.069] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa/src/linkedList","kind":"discover"}
+[15:42:27.092] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[15:42:27.092] Explicitly included types: []
+[15:42:27.093] Inferred typings from unresolved imports: []
+[15:42:27.093] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/src/linkedList/bower_components","/home/oxhart/dev/dsa/src/linkedList/node_modules"]}
+[15:42:27.093] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/src/linkedList/bower_components","/home/oxhart/dev/dsa/src/linkedList/node_modules"]}
+[15:42:27.093] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject1*","files":["/home/oxhart/dev/dsa/src/linkedList/bower_components","/home/oxhart/dev/dsa/src/linkedList/node_modules"]}
+[15:42:27.093] Response has been sent.
+[15:42:27.093] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[15:42:27.093] Response has been sent.
+[15:42:27.093] No new typings were requested as a result of typings discovery
+[15:44:47.921] Closing file watchers for project '/dev/null/inferredProject1*'
+[15:44:47.921] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject1*","files":[]}
+[15:44:47.921] Response has been sent.
+[15:44:47.921] Closing file watchers for project '/dev/null/inferredProject1*' - done.
+[16:06:39.594] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa/src/linkedList","kind":"discover"}
+[16:06:39.594] Explicitly included types: []
+[16:06:39.594] Inferred typings from unresolved imports: []
+[16:06:39.594] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/src/linkedList/bower_components","/home/oxhart/dev/dsa/src/linkedList/node_modules"]}
+[16:06:39.594] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/oxhart/dev/dsa/src/linkedList/bower_components","/home/oxhart/dev/dsa/src/linkedList/node_modules"]}
+[16:06:39.594] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject2*","files":["/home/oxhart/dev/dsa/src/linkedList/bower_components","/home/oxhart/dev/dsa/src/linkedList/node_modules"]}
+[16:06:39.594] Response has been sent.
+[16:06:39.594] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:06:39.594] Response has been sent.
+[16:06:39.594] No new typings were requested as a result of typings discovery
+[16:09:05.719] Closing file watchers for project '/dev/null/inferredProject2*'
+[16:09:05.719] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject2*","files":[]}
+[16:09:05.719] Response has been sent.
+[16:09:05.719] Closing file watchers for project '/dev/null/inferredProject2*' - done.

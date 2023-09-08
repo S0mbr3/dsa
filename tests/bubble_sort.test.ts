@@ -1,4 +1,4 @@
-import bubble_sort from "@compiled/sort/bubble_sort";
+import bubble_sort from "@src/sort/bubble_sort";
 
 test("bubble-sort", function () {
     const arr = [9, 3, 7, 4, 69, 420, 42];

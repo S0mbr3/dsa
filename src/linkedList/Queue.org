@@ -1,0 +1,235 @@
+#+title Queue linked list overview
+#+STARTUP: overview
+* Queue
+ A queue is a FIFO (First in First out) linked list data sctructure. With a O(1) time complexity they are very efficient to push and pop data with high performance due to it's simplicity.
+** Typescript implementation
+
+The Queue is made of nodes, two principal nodes the head and the tail. The head refer to the begining of the queue and the tail to the end of the queue. In fact the head node is made of a node chain, where each next pointer refer to the next nested node.
+
+*** A node
+Hold a value and the reference to the next node.
+#+begin_src typescript
+type Node<T> = {
+    value: T;
+    next?: Node<T>;
+}
+#+end_src
+
+*** Elements of a Queue
+
+#+begin_src typescript
+class Queue<T> {
+    public length: number;
+    private head?: Node<T>;
+    private tail?: Node<T>;
+
+    constructor() {
+	this.length = 0; // When creating a Queue it has no length
+	this.head = this.tail = undefined;
+    }
+}
+#+end_src
+
+*** Queing
+Done by changing the tail pointer to the queued element. If the Queue is empty the head and the tail has to be initialized to the same node. So when later the queue will grow we will be able to keep the reference to the first node in the head by adding future elements as next pointer to the tail before changing the tail node reference.
+
+By doing that we keep the head chain node referencing the first node and the tail node nesting queued element to this chain.
+#+begin_src typescript
+queue(item: T): void {
+    const node = {value: item};
+    this.length++ // We also have to manage the length ourselves
+    if(!this.tail) {
+	this.head = this.tail = undefined
+	return;
+    }
+
+    this.tail.next = node;
+    this.tail = node;
+}
+#+end_src
+
+As result because this.tail and this.head share at the begining in the memory the same node object this.tail.next and this.head.next refers to the same thing and then setting this.tail.next will also set this.tail.head.
+
+Once the second element Queued this.head and this.tail don't point to the same object anymore. But because before changing the tail node reference we set this.tail.next to the new node at this moment this.tail still share the same node as this.head the value of this.head.next become the same as this.tail.next. Making the node chain growing.
+
+**** Diagram
+
+Initially, this.head and this.tail point to the same object. Let's call this object "Node 1".
+
+
+#+begin_src typescript
+head --> Node 1 --> null
+tail --> Node 1 --> null
+#+end_src
+
+When you queue a second item, you create a new node ("Node 2"). You then set this.tail.next to point to this new node. Because this.tail and this.head are pointing to the same object ("Node 1"), setting this.tail.next is effectively the same as setting this.head.next.
+
+#+begin_src typescript
+head --> Node 1 --> Node 2 --> null
+tail --------------> Node 2 --> null
+#+end_src
+
+Now, you update this.tail to point to "Node 2". At this point, this.head and this.tail are pointing to different objects, but the next property of "Node 1" (which this.head is pointing to) is still pointing to "Node 2".
+
+#+begin_src typescript
+head --> Node 1 --> Node 2 --> null
+tail --------------> Node 2 --> null
+#+end_src
+
+When you queue another item ("Node 3"), you set this.tail.next to point to this new node. Now, this.tail is pointing to "Node 3", but this.head still points to "Node 1", whose next property points to "Node 2", whose next property now points to "Node 3".
+
+#+begin_src typescript
+head --> Node 1 --> Node 2 --> Node 3 --> null
+tail ------------------------> Node 3 --> null
+#+end_src
+
+So, even though this.tail and this.head point to different objects after the first enqueue, the next property of the object that this.head points to is part of a chain that gets updated each time a new item is queued. This is why updating this.tail.next appears to also "update" this.head.next: they are part of the same chain of nodes.
+
+*** Deque
+This is where we pop a value from the Queue. It's the opposite opperation of queuing. We have to first change where the head node is pointing to the next node before dereferencing the first node and return it's value.
+
+#+begin_src typescript
+deque() : T | undefined {
+    if (!this.head) {
+	return undefined // Meaning there is nothing to pop
+    }
+
+    this.length--;
+    const temp_head = this.head;
+
+    this.head = this.head.next;
+    
+    if (this.length === 0) { // Meaning the Queue is empty
+	this.tail = undefined
+    }
+    temp_head.next = undefined; // We don't need to keep the reference to the next value even tho the garbage collector would have clean it.
+
+    return temp_head.value;
+}
+#+end_src
+*** Peeking
+This is where we just want to see what is the value of the first element of the queue without mutate it.
+Nothing much to say, we check if this.head is undefined if not we return it's value else undefined.
+#+begin_src typescript
+peek(): T | undefined {
+    return this.head?.value
+}
+#+end_src
+** FullCode
+ #+begin_src typescript :tangle ./Queue.ts
+ type Node<T> = {
+     value: T;
+     next?: Node<T>
+ }
+
+ export default class Queue<T> {
+     public length: number;
+     private head?: Node<T>;
+     private tail?: Node<T>;
+
+     constructor() {
+ 	this.length = 0;
+ 	this.head = this.tail = undefined;
+     }
+
+     enqueue(item: T): void {
+ 	const node = {value: item} as Node<T>;
+ 	this.length++;
+ 	if(!this.tail){
+ 	    this.tail = this.head = node;
+ 	    return;
+ 	}
+
+ 	this.tail.next = node;
+ 	this.tail = node;
+     }
+
+     deque(): T | undefined {
+ 	if(!this.head) {
+ 	    return undefined;
+ 	}
+ 	this.length--;
+ 	const temp_head = this.head
+ 	this.head = this.head.next;
+ 	temp_head.next = undefined;
+
+ 	if(this.length === 0){
+ 	    this.tail = undefined;
+ 	}
+
+ 	return temp_head.value;
+     }
+
+     peek(): T | undefined {
+ 	return this.head?.value;
+     }
+ }
+ #+end_src
+
+** Running States
+
+### Initial State:
+
+- `this.head = undefined`
+- `this.tail = undefined`
+- `this.length = 0`
+
+### Enqueue 1:
+
+1. Create node `{value: 1}`
+2. `this.length++` (now 1)
+3. `this.tail = this.head = {value: 1}`
+   
+State:
+
+- `this.head = {value: 1}`
+- `this.tail = {value: 1}`
+- `this.length = 1`
+
+### Enqueue 2:
+
+1. Create node `{value: 2}`
+2. `this.length++` (now 2)
+3. `this.tail.next = {value: 2}`
+4. `this.tail = {value: 2}`
+
+State:
+
+- `this.head = {value: 1, next: {value: 2}}`
+- `this.tail = {value: 2}`
+- `this.length = 2`
+
+### Enqueue 3:
+
+1. Create node `{value: 3}`
+2. `this.length++` (now 3)
+3. `this.tail.next = {value: 3}`
+4. `this.tail = {value: 3}`
+
+State:
+
+- `this.head = {value: 1, next: {value: 2, next: {value: 3}}}`
+- `this.tail = {value: 3}`
+- `this.length = 3`
+
+### Dequeue:
+
+1. `this.length--` (now 2)
+2. `this.head = this.head.next` (which is `{value: 2, next: {value: 3}}`)
+
+State:
+
+- `this.head = {value: 2, next: {value: 3}}`
+- `this.tail = {value: 3}`
+- `this.length = 2`
+
+### Dequeue Again:
+
+1. `this.length--` (now 1)
+2. `this.head = this.head.next` (which is `{value: 3}`)
+
+State:
+
+- `this.head = {value: 3}`
+- `this.tail = {value: 3}`
+- `this.length = 1`

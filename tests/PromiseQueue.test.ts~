@@ -1,0 +1,19 @@
+import Queue from "@src/linkedList/PromiseQueue";
+//import Queue from "../Queue"
+
+test("queue", function () {
+    const list = new Queue<void>();
+
+
+    let i = 0;
+    let hi = () =>{ setTimeout(() => {console.log(++i)}, 1000);}
+    let hi1 = () =>{ setTimeout(() => {console.log(++i)}, 1000);}
+    let hi2 = () =>{ setTimeout(() => {console.log(++i)}, 1000);}
+
+    list.enqueue(hi());
+    list.enqueue(hi1());
+    list.enqueue(hi2());
+
+    expect(list.length).toEqual(3);
+
+});

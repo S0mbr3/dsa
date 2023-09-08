@@ -1,0 +1,101 @@
+class ArrayList {
+    private head: number;
+    private tail: number;
+    private capacity: number;
+    private buf;
+    private view;
+    private bytes: number;
+    private gap: number;
+    private growth_factor: number;
+
+    constructor(){
+	this.bytes = 4;
+	this.capacity = 10 * this.bytes;
+	this.buf = new ArrayBuffer(this.capacity)
+	this.view = new Uint32Array(this.buf);
+	this.gap = Math.floor(Math.floor(this.capacity / 3) / this.bytes) - 1;
+	this.tail = this.head = this.gap;
+	this.growth_factor = 2;
+    }
+
+    private grow(): void{
+	if (Math.floor(this.tail * this.bytes) >= this.capacity) {
+	    this.capacity = Math.floor(this.capacity * this.growth_factor);
+	    const buf = new ArrayBuffer(this.capacity);
+	    const view = new Uint32Array(buf);
+
+	    const gap = Math.floor(Math.floor(this.capacity / 3) / this.bytes) - 1;
+
+	    let i = gap
+	    for (let j = 0; j < this.tail - this.gap; ++i, ++j) {
+		view[i] = this.view[this.head+j]
+	    }
+	    this.buf = buf;
+	    this.view = view;
+	    this.head = gap;
+	    this.tail = i;
+	    this.gap = gap;
+	}
+    }
+    enqueue(item: number): void {
+	this.grow();
+	if(item > 3_999_999_999) {
+	    throw new Error("Number should be max 3 999 999 999")
+	}
+
+	this.view[this.tail] = item;
+	this.tail++;
+    }
+
+    deque(): number | undefined {
+	if(this.head === this.tail) {
+	    return undefined;
+	}
+	this.head++;
+	return this.view[this.head - 1];
+    }
+
+    get(idx: number): number {
+	return this.view[this.head + idx];
+    }
+
+    get_length(): number {
+	return (this.tail - this.head);
+    }
+    get_view(): Uint32Array {
+	return this.view;
+    }
+}
+
+let list = new ArrayList();
+
+console.log(list.get_length());
+
+list.enqueue(1);
+list.enqueue(2);
+console.log(list.get_length());
+list.enqueue(3);
+list.enqueue(4);
+list.enqueue(5);
+console.log(list.get_length());
+list.enqueue(6);
+list.enqueue(7);
+list.deque();
+list.deque();
+list.enqueue(8);
+console.log(list.get(4));
+list.enqueue(9);
+list.enqueue(10);
+list.enqueue(11);
+list.enqueue(13);
+list.enqueue(14);
+list.enqueue(15);
+list.enqueue(16);
+
+console.log(list.get_length());
+
+list.deque();
+list.deque();
+list.deque();
+list.deque();
+console.log(list.get_length());

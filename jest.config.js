@@ -1,14 +1,10 @@
-// jest.config.js
-
+/** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-  // Other Jest configuration options...
-
-  moduleNameMapper: {
-    '^@compiled/(.*)$': '<rootDir>/compiled/$1',
-  },
-   transform: {
-         '^.+\\.(js|ts)$': 'babel-jest',
-       },
-   // verbose: true,
-   // silent: true,
+	moduleNameMapper: {
+		//'^@compiled/(.*)$': '<rootdir>/compiled/$1'
+	    '^@src/(.*)$': '<rootDir>/src/$1'
+	},
+	preset: 'ts-jest',
+    testEnvironment: 'node',
+    verbose: true
 };

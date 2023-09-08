@@ -1,0 +1,115 @@
+[12:49:43.362] Global cache location '/home/oxhart/.cache/typescript/5.2', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[12:49:43.363] Processing cache location '/home/oxhart/.cache/typescript/5.2'
+[12:49:43.363] Trying to find '/home/oxhart/.cache/typescript/5.2/package.json'...
+[12:49:43.364] Loaded content of '/home/oxhart/.cache/typescript/5.2/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.659"}}
+[12:49:43.364] Loaded content of '/home/oxhart/.cache/typescript/5.2/package-lock.json'
+[12:49:43.364] Finished processing cache location '/home/oxhart/.cache/typescript/5.2'
+[12:49:43.364] Process id: 4052789
+[12:49:43.364] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[12:49:43.364] validateDefaultNpmLocation: false
+[12:49:43.364] Npm config file: /home/oxhart/.cache/typescript/5.2/package.json
+[12:49:43.365] Updating types-registry npm package...
+[12:49:43.365] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[12:49:44.005]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 402ms
+
+found 0 vulnerabilities
+
+[12:49:44.006] Updated types-registry npm package
+[12:49:44.035] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/jest.config.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa","kind":"discover"}
+[12:49:44.047] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[12:49:44.047] Explicitly included types: []
+[12:49:44.048] Typing names in '/home/oxhart/dev/dsa/package.json' dependencies: ["babel","@babel/preset-env","@babel/preset-typescript","@types/jest","babel-jest","jest","ts-jest","typescript"]
+[12:49:44.048] Searching for typing names in /home/oxhart/dev/dsa/node_modules; all files: ["/home/oxhart/dev/dsa/node_modules/babel/package.json","/home/oxhart/dev/dsa/node_modules/@babel/preset-env/package.json","/home/oxhart/dev/dsa/node_modules/@babel/preset-typescript/package.json","/home/oxhart/dev/dsa/node_modules/@types/jest/package.json","/home/oxhart/dev/dsa/node_modules/babel-jest/package.json","/home/oxhart/dev/dsa/node_modules/jest/package.json","/home/oxhart/dev/dsa/node_modules/ts-jest/package.json","/home/oxhart/dev/dsa/node_modules/typescript/package.json"]
+[12:49:44.051]     Package '@types/jest' provides its own types.
+[12:49:44.052]     Package 'babel-jest' provides its own types.
+[12:49:44.053]     Package 'jest' provides its own types.
+[12:49:44.054]     Package 'ts-jest' provides its own types.
+[12:49:44.056]     Package 'typescript' provides its own types.
+[12:49:44.056]     Found package names: ["babel","@babel/preset-env","@babel/preset-typescript"]
+[12:49:44.056] Inferred typings from unresolved imports: []
+[12:49:44.056] Result: {"cachedTypingPaths":["/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts"],"newTypingNames":["babel","@babel/preset-env","@babel/preset-typescript"],"filesToWatch":["/home/oxhart/dev/dsa/bower_components","/home/oxhart/dev/dsa/package.json","/home/oxhart/dev/dsa/node_modules"]}
+[12:49:44.056] Finished typings discovery: {"cachedTypingPaths":["/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts"],"newTypingNames":["babel","@babel/preset-env","@babel/preset-typescript"],"filesToWatch":["/home/oxhart/dev/dsa/bower_components","/home/oxhart/dev/dsa/package.json","/home/oxhart/dev/dsa/node_modules"]}
+[12:49:44.056] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject1*","files":["/home/oxhart/dev/dsa/bower_components","/home/oxhart/dev/dsa/package.json","/home/oxhart/dev/dsa/node_modules"]}
+[12:49:44.057] Response has been sent.
+[12:49:44.057] Installing typings ["babel","@babel/preset-env","@babel/preset-typescript"]
+[12:49:44.057] 'babel':: Entry for package 'babel' does not exist in local types registry - skipping...
+[12:49:44.057] '@babel/preset-typescript':: Entry for package 'babel__preset-typescript' does not exist in local types registry - skipping...
+[12:49:44.057] Npm config file: /home/oxhart/.cache/typescript/5.2/package.json
+[12:49:44.057] Sending response:
+    {"kind":"event::beginInstallTypes","eventId":1,"typingsInstallerVersion":"5.2.2","projectName":"/dev/null/inferredProject1*"}
+[12:49:44.057] Response has been sent.
+[12:49:44.057] #1 with arguments'["@types/babel__preset-env@ts5.2"]'.
+[12:49:44.057] Exec: /usr/bin/npm install --ignore-scripts @types/babel__preset-env@ts5.2 --save-dev --user-agent="typesInstaller/5.2.2"
+[12:49:46.134]     Succeeded. stdout:
+    
+    added 1 package, and audited 3 packages in 2s
+
+found 0 vulnerabilities
+
+[12:49:46.134] npm install #1 took: 2077 ms
+[12:49:46.135] Installed typings ["@types/babel__preset-env@ts5.2"]
+[12:49:46.138] Installed typing files ["/home/oxhart/.cache/typescript/5.2/node_modules/@types/babel__preset-env/index.d.ts"]
+[12:49:46.138] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts","/home/oxhart/.cache/typescript/5.2/node_modules/@types/babel__preset-env/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[12:49:46.138] Response has been sent.
+[12:49:46.138] Sending response:
+    {"kind":"event::endInstallTypes","eventId":1,"projectName":"/dev/null/inferredProject1*","packagesToInstall":["@types/babel__preset-env@ts5.2"],"installSuccess":true,"typingsInstallerVersion":"5.2.2"}
+[12:49:46.138] Response has been sent.
+[12:49:46.545] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/jest.config.js","/home/oxhart/.cache/typescript/5.2/node_modules/@types/babel__preset-env/index.d.ts","/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa","kind":"discover"}
+[12:49:46.546] Explicitly included types: []
+[12:49:46.547] Typing names in '/home/oxhart/dev/dsa/package.json' dependencies: ["babel","@babel/preset-env","@babel/preset-typescript","@types/jest","babel-jest","jest","ts-jest","typescript"]
+[12:49:46.547] Searching for typing names in /home/oxhart/dev/dsa/node_modules; all files: ["/home/oxhart/dev/dsa/node_modules/babel/package.json","/home/oxhart/dev/dsa/node_modules/@babel/preset-env/package.json","/home/oxhart/dev/dsa/node_modules/@babel/preset-typescript/package.json","/home/oxhart/dev/dsa/node_modules/@types/jest/package.json","/home/oxhart/dev/dsa/node_modules/babel-jest/package.json","/home/oxhart/dev/dsa/node_modules/jest/package.json","/home/oxhart/dev/dsa/node_modules/ts-jest/package.json","/home/oxhart/dev/dsa/node_modules/typescript/package.json"]
+[12:49:46.552]     Package '@types/jest' provides its own types.
+[12:49:46.552]     Package 'babel-jest' provides its own types.
+[12:49:46.553]     Package 'jest' provides its own types.
+[12:49:46.555]     Package 'ts-jest' provides its own types.
+[12:49:46.557]     Package 'typescript' provides its own types.
+[12:49:46.557]     Found package names: ["babel","@babel/preset-env","@babel/preset-typescript"]
+[12:49:46.557] Inferred typings from unresolved imports: []
+[12:49:46.557] Result: {"cachedTypingPaths":["/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts"],"newTypingNames":["babel","@babel/preset-env","@babel/preset-typescript"],"filesToWatch":["/home/oxhart/dev/dsa/bower_components","/home/oxhart/dev/dsa/package.json","/home/oxhart/dev/dsa/node_modules"]}
+[12:49:46.557] Finished typings discovery: {"cachedTypingPaths":["/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts"],"newTypingNames":["babel","@babel/preset-env","@babel/preset-typescript"],"filesToWatch":["/home/oxhart/dev/dsa/bower_components","/home/oxhart/dev/dsa/package.json","/home/oxhart/dev/dsa/node_modules"]}
+[12:49:46.557] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject1*"}
+[12:49:46.557] Response has been sent.
+[12:49:46.557] Installing typings ["babel","@babel/preset-env","@babel/preset-typescript"]
+[12:49:46.557] 'babel':: Entry for package 'babel' does not exist in local types registry - skipping...
+[12:49:46.558] '@babel/preset-env':: 'babel__preset-env' already has an up-to-date typing - skipping...
+[12:49:46.558] '@babel/preset-typescript':: Entry for package 'babel__preset-typescript' does not exist in local types registry - skipping...
+[12:49:46.558] All typings are known to be missing or invalid - no need to install more typings
+[12:49:46.558] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[12:49:46.558] Response has been sent.
+[12:49:46.931] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.d.ts","/usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/jest.config.js","/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/oxhart/dev/dsa","kind":"discover"}
+[12:49:46.931] Explicitly included types: []
+[12:49:46.931] Typing names in '/home/oxhart/dev/dsa/package.json' dependencies: ["babel","@babel/preset-env","@babel/preset-typescript","@types/jest","babel-jest","jest","ts-jest","typescript"]
+[12:49:46.932] Searching for typing names in /home/oxhart/dev/dsa/node_modules; all files: ["/home/oxhart/dev/dsa/node_modules/babel/package.json","/home/oxhart/dev/dsa/node_modules/@babel/preset-env/package.json","/home/oxhart/dev/dsa/node_modules/@babel/preset-typescript/package.json","/home/oxhart/dev/dsa/node_modules/@types/jest/package.json","/home/oxhart/dev/dsa/node_modules/babel-jest/package.json","/home/oxhart/dev/dsa/node_modules/jest/package.json","/home/oxhart/dev/dsa/node_modules/ts-jest/package.json","/home/oxhart/dev/dsa/node_modules/typescript/package.json"]
+[12:49:46.936]     Package '@types/jest' provides its own types.
+[12:49:46.937]     Package 'babel-jest' provides its own types.
+[12:49:46.938]     Package 'jest' provides its own types.
+[12:49:46.940]     Package 'ts-jest' provides its own types.
+[12:49:46.941]     Package 'typescript' provides its own types.
+[12:49:46.941]     Found package names: ["babel","@babel/preset-env","@babel/preset-typescript"]
+[12:49:46.941] Inferred typings from unresolved imports: []
+[12:49:46.942] Result: {"cachedTypingPaths":["/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts"],"newTypingNames":["babel","@babel/preset-env","@babel/preset-typescript"],"filesToWatch":["/home/oxhart/dev/dsa/bower_components","/home/oxhart/dev/dsa/package.json","/home/oxhart/dev/dsa/node_modules"]}
+[12:49:46.942] Finished typings discovery: {"cachedTypingPaths":["/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts"],"newTypingNames":["babel","@babel/preset-env","@babel/preset-typescript"],"filesToWatch":["/home/oxhart/dev/dsa/bower_components","/home/oxhart/dev/dsa/package.json","/home/oxhart/dev/dsa/node_modules"]}
+[12:49:46.942] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject1*"}
+[12:49:46.942] Response has been sent.
+[12:49:46.942] Installing typings ["babel","@babel/preset-env","@babel/preset-typescript"]
+[12:49:46.942] 'babel':: Entry for package 'babel' does not exist in local types registry - skipping...
+[12:49:46.942] '@babel/preset-env':: 'babel__preset-env' already has an up-to-date typing - skipping...
+[12:49:46.942] '@babel/preset-typescript':: Entry for package 'babel__preset-typescript' does not exist in local types registry - skipping...
+[12:49:46.942] All typings are known to be missing or invalid - no need to install more typings
+[12:49:46.942] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/oxhart/dev/dsa/node_modules/@types/jest/index.d.ts","/home/oxhart/dev/dsa/node_modules/babel-jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/jest/build/index.d.ts","/home/oxhart/dev/dsa/node_modules/ts-jest/dist/index.d.ts","/home/oxhart/dev/dsa/node_modules/typescript/lib/typescript.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[12:49:46.944] Response has been sent.
+[14:11:15.383] Closing file watchers for project '/dev/null/inferredProject1*'
+[14:11:15.383] Sending response:
+    {"kind":"action::watchTypingLocations","projectName":"/dev/null/inferredProject1*","files":[]}
+[14:11:15.383] Response has been sent.
+[14:11:15.383] Closing file watchers for project '/dev/null/inferredProject1*' - done.
+[14:11:15.384] Closing file watchers for project '/dev/null/autoImportProviderProject1*'
+[14:11:15.384] No watchers are registered for project '/dev/null/autoImportProviderProject1*'
